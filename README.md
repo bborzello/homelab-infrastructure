@@ -13,7 +13,7 @@ This lab consists of a virtualized network hosted on **VirtualBox**, simulating 
 | **SRV-DB-01** | Ubuntu 24.04 LTS | Backend Database (PostgreSQL/MySQL) |
 
 ## 🛠️ Roadmap
-- [X] **Phase 1:** VirtualBox Hypervisor configuration and Host-Only networking.
+- [X] **Phase 1:** VirtualBox Hypervisor configuration and Host-Only networking. (Completed 1/9/25)
 - [ ] **Phase 1.5: Cloud Foundation:**
     - [x] Deploy Docker Engine and containerized dashboard (Homarr).
     - [x] Implement real-time telemetry via Netdata.
