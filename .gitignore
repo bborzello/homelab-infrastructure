@@ -1,0 +1,9 @@
+# Ignore actual application data
+services/**/configs/
+services/**/icons/
+services/**/cache/
+services/**/media/
+
+# Ignore sensitive files
+*.env
+.discord_webhook
