@@ -7,3 +7,5 @@ services/**/media/
 # Ignore sensitive files
 *.env
 .discord_webhook
+services/jellyfin/media/
+rip_log.txt
