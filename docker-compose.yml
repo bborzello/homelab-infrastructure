@@ -14,3 +14,14 @@ services:
       - /sys:/host/sys:ro
     ports:
       - "7575:7575"
+
+  jellyfin:
+    image: jellyfin/jellyfin:latest
+    container_name: jellyfin
+    user: "1000:1000"
+    network_mode: "host"
+    volumes:
+      - ./services/jellyfin/config:/config
+      - ./services/jellyfin/cache:/cache
+      - ./services/jellyfin/media:/data/movies
+    restart: unless-stopped

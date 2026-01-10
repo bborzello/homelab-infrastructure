@@ -1,11 +1,15 @@
-# Ignore actual application data
-services/**/configs/
-services/**/icons/
-services/**/cache/
-services/**/media/
+# Ignore everything inside these folders
+services/homarr/configs/*
+services/homarr/icons/*
+services/jellyfin/config/*
+services/jellyfin/cache/*
+services/jellyfin/media/*
 
-# Ignore sensitive files
-*.env
-.discord_webhook
-services/jellyfin/media/
+# Specifically ignore the Jellyfin metadata/log noise
+metadata/
+logs/
+
+# Ignore system/rip files
 rip_log.txt
+.discord_webhook
+*.env

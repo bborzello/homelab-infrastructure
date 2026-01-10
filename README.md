@@ -14,10 +14,10 @@ This lab consists of a virtualized network hosted on **VirtualBox**, simulating 
 
 ## 🛠️ Roadmap
 - [X] **Phase 1:** VirtualBox Hypervisor configuration and Host-Only networking. (Completed 1/9/25)
-- [ ] **Phase 1.5: Cloud Foundation:**
+- [X] **Phase 1.5: Cloud Foundation:**
     - [x] Deploy Docker Engine and containerized dashboard (Homarr).
     - [x] Implement real-time telemetry via Netdata.
-    - [ ] Jellyfin "Proof of Concept" for media delivery orchestration.
+    - [X] Jellyfin "Proof of Concept" for media delivery orchestration.
 - [ ] **Phase 2:** Windows Server "Promotion" to Domain Controller (Active Directory setup).
 - [ ] **Phase 3:** Linux Node joining the domain and cross-platform authentication.
 - [ ] **Phase 4:** Centralized logging and monitoring via the Sentry project.
